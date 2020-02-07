@@ -77,5 +77,22 @@
     installed manually, since they are placed in my homedirectory (D:/Users/Julian/Documents/Arduino/libraries/). 
     Same goes for boards I installed, like the ESP8266, which has its package sit in "D:/Users/Julian/Documents/Arduino/hardware/".
     ```
-   
+- Comment shortcut
+  ```
+  Ctrl+K +C # Add line comment
+  Ctrl+K +U # Remove line comment
+  Ctrl+/ # Toggle line comment
+  Shift+Alt+A # Toggle block comment
+  ```
 
+- Multi words selection
+  ```
+  Ctrl+Shift+L / Cmd+Shift+L # selects all instances of the current highlighted word
+  Ctrl+D / Cmd+D # selects the next instance... and the one after that... etc.
+  ```
+- Multi lines selection
+  ```
+  Ctrl+Alt+Down / Cmd+Alt+Down # extend your selection or cursor position to the next line
+  Ctrl+Right / Cmd+Right # move to the end of each line, no matter how long
+  Esc # escape the multi-line selection
+  ```
